@@ -373,3 +373,5 @@ if selected_menu == "Analyze data!":
 
     if st.button("Analyze"):
         execute_query(question_index)
+        
+#while creating Duration column in MySQL database, if an error occurs then convert it's datatype from INT to VARCHAR(255)
